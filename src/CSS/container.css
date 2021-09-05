@@ -1,0 +1,19 @@
+.container{
+    width: 100%;
+    height: auto;
+    max-width: 1300px;
+    background-color: white;
+    margin: auto;
+}
+@media  (min-width: 600px){
+    .container{
+        width: 70%;
+        min-width: 500px;
+    }
+}
+@media (max-width:409px){
+   .container{
+    max-width: 1300px;
+    min-width: 280px;
+   } 
+}
