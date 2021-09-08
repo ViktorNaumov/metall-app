@@ -120,13 +120,14 @@ img.tube{
     .tube{
         width: 181px;
     }
-    .tube span.tube1 ,span.tube2, span.tube3 {
+    .tube span.tube1  {
         display: block;
         width: 181px;
         margin: auto;
         font-size: 25px;
         color:black;
         font-weight: bold;
+        text-align: center;
     }
     .icon {
         margin-top: 40px;
@@ -138,11 +139,27 @@ img.tube{
     .button span{
         width: 120px;
         font-size: 15px;
-        width: 80px; 
+        width: 80px;
+         
+    }
+    .tube span.tube1 ,span.tube2, span.tube3{
+        display: block;
+        width: 100%;
+        text-align: center;
+         
     }
 }
 @media (min-width:1000px) {
-    .tube span.tube1 ,span.tube2, span.tube3{
-        font-size: 34px; 
+    .tube span.tube1 {
+        
+        font-size: 34px;
+         
+    }
+}
+@media (max-width:600px){
+    .tube span.tube1{
+        display: block;
+        width: 100%;
+        text-align: center;
     }
 }

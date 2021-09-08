@@ -47,7 +47,7 @@ function App() {
             
             <NavLink to="/goods"><Icon img={Picture5} name="Товары"/></NavLink>
             <NavLink to="/contacts"><Icon img={Picture6} name="Контакты"/></NavLink>
-            <NavLink to="/rec"><Icon img={Picture7} name="Калькулятор"/></NavLink>
+            <NavLink to="/rec"><Icon img={Picture7} name="Вес"/></NavLink>
           </div>
           <div className="content">
             <Route path="/" render={()=> <Redirect to="/goods"/>}/>
