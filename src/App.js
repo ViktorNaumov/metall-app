@@ -2,7 +2,8 @@ import "./CSS/styles.css"
 import "./CSS/container.css"
 import "./CSS/container1.css"
 import "./CSS/container2.css"
-import "./CSS/reccontainer.css"
+import "./CSS/contact.css"
+import "./CSS/calccontainer.css"
 import GoodsFrame from "./components/goodsFrame";
 import Picture1 from "./IMG/272_big1.jpg"
 import Picture2 from "./IMG/272_big1.jpg"
@@ -10,9 +11,11 @@ import Picture3 from "./IMG/icons8-телефон.png"
 import Picture4 from "./IMG/logo3.png"
 import Picture5 from "./IMG/tubes.png"
 import Picture6 from "./IMG/placeholder.png"
-import Picture7 from "./IMG/info.png"
+import Picture7 from "./IMG/calc.png"
 import Icon from"./components/icon"
-import Rec from"./components/rec"
+import Contact from "./components/contact"
+import Calc from"./components/calc"
+
 import { Route,NavLink, Redirect } from "react-router-dom";
 
 function App() {
@@ -44,13 +47,14 @@ function App() {
             
             <NavLink to="/goods"><Icon img={Picture5} name="Товары"/></NavLink>
             <NavLink to="/contacts"><Icon img={Picture6} name="Контакты"/></NavLink>
-            <NavLink to="/rec"><Icon img={Picture7} name="Реквизиты"/></NavLink>
+            <NavLink to="/rec"><Icon img={Picture7} name="Калькулятор"/></NavLink>
           </div>
           <div className="content">
             <Route path="/" render={()=> <Redirect to="/goods"/>}/>
             <Route path="/goods" render={()=><GoodsFrame img={Picture1} name="Лежалая труба"/>}/>
             <Route path="/goods" render={()=><GoodsFrame img={Picture2} name="Б/у труба"/>}/>
-            <Route path="/rec" render={()=> <Rec/>}/>
+            <Route path="/contacts" render={()=><Contact/>}/>
+            <Route path="/rec" render={()=> <Calc/>}/>
 
           </div>
           <div className="foot">

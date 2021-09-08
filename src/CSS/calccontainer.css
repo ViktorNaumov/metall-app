@@ -1,0 +1,24 @@
+.calccontainer {
+  width: 98%;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+div #mp_calc_zag {
+  width: 274;
+  text-indent: 0px;
+  font-family: Tahoma, Arial, Helvetica;
+  font-size: 14px;
+  color: #ffffff;
+  background: #215764;
+  text-align: center;
+  margin: 0px;
+  padding: 5px 0px 5px 0px;
+}
+div #mp_calc_zag a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.calcwraper{
+    width: 274px;
+    margin:auto;
+}
