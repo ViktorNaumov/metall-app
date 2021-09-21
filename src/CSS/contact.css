@@ -18,6 +18,9 @@
 .telephon, .email{
     margin-top: 10px;
 }
+.telephon div{
+    margin-top: 10px;
+}
 .telephone span a{
     color: black;
     text-decoration: none;
