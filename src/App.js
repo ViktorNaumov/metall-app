@@ -37,6 +37,9 @@ function App() {
             <div className="tel">
               <span>+7(921)5559440</span>
             </div>
+            <div className="tel">
+              <span>+7(921)5767757</span>
+            </div>
             <div className="mail">
               <a href="mailto:metall.invest18@mail.ru">metall.invest18@mail.ru</a>
             </div>
