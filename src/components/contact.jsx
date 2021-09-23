@@ -22,6 +22,18 @@ const Contact = () => {
             <a href="mailto:metall.invest18@mail.ru">metall.invest18@mail.ru</a>
           </span>
         </div>
+        <div className="inn">
+          <span>
+            <b>ИНН: </b>
+            7811697378
+          </span>
+        </div>
+        <div className="ogrn">
+          <span>
+            <b>ОГРН: </b>
+            1187847160159
+          </span>
+        </div>
       </div>
     </div>
   );

@@ -2,7 +2,7 @@
     width: 100%;
     height: 500px;
 }
-.h1cont, .telephone, .email{
+.h1cont, .telephone, .email, .inn, .ogrn{
     width: 98%;
     margin-left: 1%;
     margin-right: 1%;
@@ -15,12 +15,10 @@
     margin-top: 20px;
     margin-bottom: 30px;
 }
-.telephon, .email{
+.telephon, .email, .inn, .ogrn{
     margin-top: 10px;
 }
-.telephon div{
-    margin-top: 10px;
-}
+
 .telephone span a{
     color: black;
     text-decoration: none;
