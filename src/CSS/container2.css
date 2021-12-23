@@ -78,6 +78,7 @@ img.tube{
     margin-bottom: 10px;
     background-color: #215764;
     border-radius: 5px;
+    text-decoration: none;
 }
 .button span{
     display: block;
@@ -88,10 +89,13 @@ img.tube{
     color: white;
 }
 @media  (min-width: 600px){
-    .goods{
+    .goods {
         width: 49%;
         /* height: 400px; */
         
+    }
+    .goodsCard{
+        width: 25%;  
     }
     .content{
         display: flex;

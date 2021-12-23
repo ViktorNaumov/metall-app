@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const GoodsFrame = (props) => {
   return (
@@ -11,7 +12,7 @@ const GoodsFrame = (props) => {
           <span>{props.name}</span>
         </div>
         <div className="button">
-          <span>Подробнее</span>
+        <NavLink to={props.mark} style={{ textDecoration: 'none' }}><span>Подробнее</span></NavLink>
         </div>
       </div>
     </div>

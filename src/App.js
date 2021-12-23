@@ -17,6 +17,7 @@ import Contact from "./components/contact"
 import Calc from"./components/calc"
 
 import { Route,NavLink, Redirect } from "react-router-dom";
+import GoodsCards from "./components/goodsCards"
 
 function App() {
   return (
@@ -54,10 +55,11 @@ function App() {
           </div>
           <div className="content">
             <Route path="/" render={()=> <Redirect to="/goods"/>}/>
-            <Route path="/goods" render={()=><GoodsFrame img={Picture1} name="Лежалая труба"/>}/>
-            <Route path="/goods" render={()=><GoodsFrame img={Picture2} name="Б/у труба"/>}/>
+            <Route path="/goods" render={()=><GoodsFrame img={Picture1} name="Лежалая труба" mark="/goodscards"/>}/>
+            <Route path="/goods" render={()=><GoodsFrame img={Picture2} name="Б/у труба" mark="/goodscards"/>}/>
             <Route path="/contacts" render={()=><Contact/>}/>
             <Route path="/rec" render={()=> <Calc/>}/>
+            <Route path="/goodscards" render={()=><GoodsCards/>}/>
 
           </div>
           <div className="foot">
