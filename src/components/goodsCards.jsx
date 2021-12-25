@@ -1,11 +1,11 @@
 import React from "react";
 import GoodsCard from "./goodsCard";
-import Pipe1 from "../IMG/IMG-20211216-WA0003.jpg"
-import Pipe2 from "../IMG/IMG-20211216-WA0004.jpg"
-import Pipe3 from "../IMG/IMG-20211216-WA0005.jpg"
-import Pipe4 from "../IMG/IMG-20211216-WA0006.jpg"
-import Pipe5 from "../IMG/IMG-20211216-WA0007.jpg"
-import Pipe6 from "../IMG/IMG-20211216-WA0008.jpg"
+import Pipe1 from "../IMG/1.png"
+import Pipe2 from "../IMG/2.png"
+import Pipe3 from "../IMG/3.png"
+import Pipe4 from "../IMG/4.png"
+import Pipe5 from "../IMG/5.png"
+import Pipe6 from "../IMG/6.png"
 
 const GoodsCards = (props) => {
     return (

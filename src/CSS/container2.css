@@ -12,8 +12,9 @@
     /* background-color: transparent; */
 }
 .content{
-    display:flex;
-    flex-direction: column;
+    /* display:flex;
+    flex-direction: column; */
+    display: block;
     width: 98%;
     margin-left: 1%;
     margin-right: 1%;
@@ -39,6 +40,15 @@
     margin-top: 10px;
     border-radius: 5px;
     box-shadow: 17px 43px 58px -24px #000000;
+}
+.goodsCard{
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 4px 4px 48px -10px #000000;
+    /*  17px 43px 58px -24px */
 }
 .icon #i1{
     display: flex;
@@ -71,6 +81,9 @@ img.tube{
 }
 .lable{
     margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .button{
     width: 30%;
@@ -88,19 +101,21 @@ img.tube{
     font-size: 25px;
     color: white;
 }
-@media  (min-width: 600px){
+@media (min-width: 600px){
     .goods {
-        width: 49%;
+        width: 48%;
+        float:left;
         /* height: 400px; */
         
     }
     .goodsCard{
-        width: 25%;  
+        width: 48%;
+        float: left;  
     }
-    .content{
-        display: flex;
-        flex-direction: row;
+    .goodsCard .lable{
+        font-size: 11px;
     }
+    
     .button{
         width: 58%;
         max-width: 120px;
@@ -158,6 +173,9 @@ img.tube{
         
         font-size: 34px;
          
+    }
+    .goodsCard .lable{
+        font-size: 18px;
     }
 }
 @media (max-width:600px){

@@ -56,7 +56,7 @@ function App() {
           <div className="content">
             <Route path="/" render={()=> <Redirect to="/goods"/>}/>
             <Route path="/goods" render={()=><GoodsFrame img={Picture1} name="Лежалая труба" mark="/goodscards"/>}/>
-            <Route path="/goods" render={()=><GoodsFrame img={Picture2} name="Б/у труба" mark="/goodscards"/>}/>
+            <Route path="/goods" render={()=><GoodsFrame img={Picture2} name="Б/у труба" mark=""/>}/>
             <Route path="/contacts" render={()=><Contact/>}/>
             <Route path="/rec" render={()=> <Calc/>}/>
             <Route path="/goodscards" render={()=><GoodsCards/>}/>
